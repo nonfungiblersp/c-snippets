@@ -12,13 +12,18 @@ int main (void)
 	temp = x;
 	
 	i=0;
-	while(i<=x)
+	while(x!=0)
 	{
 		r = x%10;
 		sum = sum*10 + r;
 		x/=10;
+		//printf("x = %d\n",x);
+		//printf("sum = %d\n",sum);
 		i++;
 	}
-	printf("The Original number is = %d\n",temp);
-	printf("The reverse of  number is = %d\n",sum);
+	//for line
+	printf("\n");
+	
+	printf("\t\t\t\tThe Original number is = %d\n",temp);
+	printf("\t\t\t\tThe reverse of  number is = %d\n",sum);
 }
