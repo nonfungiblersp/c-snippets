@@ -1,7 +1,7 @@
 /*
 Write a C program to enter a number and print its reverse.
 */
-
+#include<stdio.h>
 int main (void)
 {
 	int i,x,r,sum=0,temp;
